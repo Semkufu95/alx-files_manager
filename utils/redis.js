@@ -1,4 +1,4 @@
-// A redis class module
+const redis = require('redis');
 
 class RedisClient {
     constructor(client) {
